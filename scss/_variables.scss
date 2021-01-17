@@ -1,0 +1,13 @@
+$wrapper-width: 1140px;
+$btn-height: 32px;
+$btn-font-size: 14px;
+$main-color: #f16d7f;
+$main-color-hover: #bd5866;
+$grey-color-hover: #b5b5b5;
+$productWidth: 263px;
+$productItemButtons: (
+  (cart, 123px, 39px),
+  (change, 57px, 38px),
+  (like, 57px, 38px)
+);
+$productSet: $productWidth, 364px, $productWidth, 280px, 123px, 39px, $productItemButtons;

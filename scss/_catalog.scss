@@ -1,0 +1,23 @@
+@import 'variables';
+@import 'mixins';
+
+.checkout-btn {
+  @include headerBtn(110px);
+}
+
+.products {
+  height: 430px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.product {
+  @include productItem($productSet...);
+}
+
+.product-btn {
+  height: $btn-height;
+  font-size: $btn-font-size;
+}
